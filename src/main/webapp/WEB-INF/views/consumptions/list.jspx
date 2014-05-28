@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_fiftyhertz_domain_Consumption" items="${consumptions}" z="6Jh1Uz/tOOYqbaObTkxAau3E4wc=">
+        <table:table data="${consumptions}" id="l_com_fiftyhertz_domain_Consumption" path="/consumptions" z="Ojj0dhdK6ersEeOXOrQqqduYH8M=">
+            <table:column id="c_com_fiftyhertz_domain_Consumption_stateName" property="stateName" z="pAvRg4QEZMNELflOk7fIVvbtZvU="/>
+            <table:column id="c_com_fiftyhertz_domain_Consumption_consYear" property="consYear" z="aKwnnHJwKx+2INW67dUTzZ3gh3s="/>
+            <table:column id="c_com_fiftyhertz_domain_Consumption_nuclear" property="nuclear" z="AKzTbbt28iIvQpr5u9xx0aX82Z0="/>
+            <table:column id="c_com_fiftyhertz_domain_Consumption_hydro" property="hydro" z="MADXIlbhNTE7M4c7oOYEwENMnvM="/>
+            <table:column id="c_com_fiftyhertz_domain_Consumption_thermal" property="thermal" z="Bhhad20BmOi+hG9Ja526k1IVvmk="/>
+        </table:table>
+    </page:list>
+</div>

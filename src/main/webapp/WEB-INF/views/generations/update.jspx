@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_fiftyhertz_Generation" modelAttribute="generation" path="/generations" versionField="Version" z="wjQVh6h6fwTcDodt1pTXiRbb9fQ=">
+        <field:input field="stateName" id="c_com_fiftyhertz_Generation_stateName" z="KBFhYkhXgllUR7g212BVd6rJOq8="/>
+        <field:input field="genYear" id="c_com_fiftyhertz_Generation_genYear" z="vYPUmla++GUI2Pv7BmyTYkl5JHM="/>
+        <field:input field="thermal" id="c_com_fiftyhertz_Generation_thermal" z="nIemPRIXuDKbWFdpirKZWP2lfqI="/>
+        <field:input field="nuclear" id="c_com_fiftyhertz_Generation_nuclear" z="4PwiIWWkbFd9Hw6c53+u/jt85cY="/>
+        <field:input field="hydro" id="c_com_fiftyhertz_Generation_hydro" z="NNB+HbTbQAc7+V7r2vjSwXmBlZI="/>
+        <field:input field="naturalGen" id="c_com_fiftyhertz_Generation_naturalGen" z="udG5+kEo6BH7gvfHeCrLLJrlO2Q="/>
+    </form:update>
+</div>

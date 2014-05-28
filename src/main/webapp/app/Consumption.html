@@ -1,0 +1,34 @@
+<div style="margin-top:10px;">
+
+			 <Header>
+			filter by:<input ng-model="query2" > 
+			filter by:<input ng-model="query3"></header>
+	           <table class="table table-striped tbody tr:nth-child(odd) th">
+
+						<thead class="table-bordered th">
+							<tr>
+								<th>Year</th>
+								<th>State</th>
+								<th>Nuclear</th>
+								<th>Hydro</th>
+								<th>Thermal</th>
+								
+							</tr>
+
+						</thead>
+
+						<tbody>
+							<tr ng-repeat="gen in cons|filter:query2|filter:query3">
+								<td>{{gen.consYear}}</td>
+								<td>{{gen.stateName}}</td>
+								<td>{{gen.nuclear}}</td>
+								<td>{{gen.hydro}}</td>
+								<td>{{gen.thermal}}</td>
+								
+							</tr>
+						</tbody>
+					</table> 
+				
+
+
+	

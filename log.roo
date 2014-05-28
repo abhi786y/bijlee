@@ -1,0 +1,80 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-04-10 11:06:22
+project --topLevelPackage com.fiftyhertz --projectName Bijalee1 --java 7 --packaging JAR
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2014-04-10 11:06:41
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-04-10 11:06:47
+jpa setup --database MYSQL --provider HIBERNATE 
+entity jpa --class com.fiftyhertz.domain.Consumption
+field string --fieldName stateName
+field number --fieldName consYear --type int
+field number --fieldName nuclear --type double
+field number --fieldName hydro --type double
+field number --fieldName thermal --type double
+entity jpa --class com.fiftyhertz.Generation
+field string --fieldName stateName
+field number --fieldName genYear --type int
+field number --fieldName thermal --type double
+field number --fieldName nuclear --type double
+field number --fieldName hydro --type double
+field number --fieldName naturalGen --type double
+json all 
+web mvc json setup
+web mvc json all 
+web mvc all --package com.fiftyhertz.web
+focus --class ~.Generation
+finder list 
+finder add --finderName findGenerationsByGenYear 
+focus --class ~.domain.Consumption
+finder list 
+finder add --finderName findConsumptionsByConsYear
+web mvc finder all 
+web mvc update tags 
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2014-04-10 11:34:03
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-04-12 11:46:59
+focus --class ~.domain.Consumption
+focus --class ~.domain.Consumption
+focus --class ~.domain.Consumption
+json all 
+web mvc json all 
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2014-04-12 11:58:53
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-04-22 17:27:43
+logging setup --level INFO 
+security setup
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2014-04-22 23:28:05
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-04-24 13:05:30
+focus --class ~.Generation
+finder list 
+finder add --finderName findGenerationsByStateNameEquals
+focus --class ~.domain.Consumption
+finder list
+finder add --finderName findConsumptionsByStateNameEquals
+web mvc finder all
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2014-04-24 13:19:03
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-04-24 13:23:46
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2014-04-24 13:28:56
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-05-27 15:00:20
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2014-05-27 15:12:02
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-05-27 16:05:03
+focus --class ~.Generation
+finder list 
+finder add findGenerationsByGenYear
+focus --class ~.domain.Consumption
+finder list
+finder add findConsumptionsByConsYear
+web mvc finder all
+web mvc finder all
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2014-05-27 16:13:49
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-05-27 16:14:35
+focus --class ~.Generation
+finder list 
+finder add findGenerationsByGenYear
+finder add findGenerationsByGenYear
+finder add --finderName findGenerationsByGenYear
+focus --class ~.domain.Consumption
+finder add --finderName findConsumptionByConsYear
+finder list
+finder add --finderName findConsumptionsByConsYear
+web mvc all --package com.fiftyhertz.web
+web mvc update tags 
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2014-05-27 16:45:46
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-05-27 16:48:14
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2014-05-27 16:53:06

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_fiftyhertz_domain_Consumption" object="${consumption}" path="/consumptions" z="uruWMSlr/hCXI1i3SaQW3fd1r3Q=">
+        <field:display field="stateName" id="s_com_fiftyhertz_domain_Consumption_stateName" object="${consumption}" z="6LfiGa5W3UgCAAhnS2ly+RhWwa0="/>
+        <field:display field="consYear" id="s_com_fiftyhertz_domain_Consumption_consYear" object="${consumption}" z="pkRnL+KaEY3siJIr0RL8t+YJEfc="/>
+        <field:display field="nuclear" id="s_com_fiftyhertz_domain_Consumption_nuclear" object="${consumption}" z="dvcMgnnKeM1M0Sp2OkOajHhJPTQ="/>
+        <field:display field="hydro" id="s_com_fiftyhertz_domain_Consumption_hydro" object="${consumption}" z="yuOVxmu+FfWF6LaY5Fn1L79HW18="/>
+        <field:display field="thermal" id="s_com_fiftyhertz_domain_Consumption_thermal" object="${consumption}" z="DgcFKM0vdoyI5Ir3TWBbNNySUFs="/>
+    </page:show>
+</div>

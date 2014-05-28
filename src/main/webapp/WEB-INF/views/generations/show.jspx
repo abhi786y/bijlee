@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_fiftyhertz_Generation" object="${generation}" path="/generations" z="VFQhsSfTu9VC/1vTqTFhppgc//U=">
+        <field:display field="stateName" id="s_com_fiftyhertz_Generation_stateName" object="${generation}" z="EQqjkLM67rinaDu20bWsFFzJlCs="/>
+        <field:display field="genYear" id="s_com_fiftyhertz_Generation_genYear" object="${generation}" z="BPlXEkBC9ogCK5sY7IemTzUPvI8="/>
+        <field:display field="thermal" id="s_com_fiftyhertz_Generation_thermal" object="${generation}" z="ru/GbqYoQXmRZfX1tptleUW4XfE="/>
+        <field:display field="nuclear" id="s_com_fiftyhertz_Generation_nuclear" object="${generation}" z="wCT68wIyVT/kkMCgOQjXLxazFSg="/>
+        <field:display field="hydro" id="s_com_fiftyhertz_Generation_hydro" object="${generation}" z="bbzdMvSKl8xp+QRtJwspoVFqGGg="/>
+        <field:display field="naturalGen" id="s_com_fiftyhertz_Generation_naturalGen" object="${generation}" z="cFX23JIKWw1KgkHpf8658161x9Q="/>
+    </page:show>
+</div>

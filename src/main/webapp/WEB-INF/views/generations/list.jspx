@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_fiftyhertz_Generation" items="${generations}" z="NnNRZJyJmaQ0wcuUdedMBUt8GHE=">
+        <table:table data="${generations}" id="l_com_fiftyhertz_Generation" path="/generations" z="EuUo/06xG6cS9kZuawTp8I5poYo=">
+            <table:column id="c_com_fiftyhertz_Generation_stateName" property="stateName" z="VSsIoyGUkvpU/XxvqetbFAvQGxE="/>
+            <table:column id="c_com_fiftyhertz_Generation_genYear" property="genYear" z="bo3EtEwzmOsLeBCROVI1snYzh2w="/>
+            <table:column id="c_com_fiftyhertz_Generation_thermal" property="thermal" z="UlXtP6Q8dCHtGb6zwTEe12w14Hc="/>
+            <table:column id="c_com_fiftyhertz_Generation_nuclear" property="nuclear" z="iJ8zD6FsF8NHb5YZ7CxqfD697Sw="/>
+            <table:column id="c_com_fiftyhertz_Generation_hydro" property="hydro" z="+yfYeLsfFjwBQPof8vDDsoziyZ4="/>
+            <table:column id="c_com_fiftyhertz_Generation_naturalGen" property="naturalGen" z="nql0YktNe4cId692sQfHURGf5Zs="/>
+        </table:table>
+    </page:list>
+</div>

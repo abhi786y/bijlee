@@ -1,0 +1,28 @@
+
+ <script>
+ $(document).ready(function(){
+	
+	 $("#slider1").hide(0).delay(500).fadeIn(1000);
+	 $("#header").hide(0).delay(500).fadeIn(500);
+	 $("#legend").hide(0).delay(500).fadeIn(1500);
+	 $("#lbl").hide(0).delay(500).fadeIn(2000);
+	  
+ })
+ 
+ </script>
+ <style>
+
+</style>
+<div>
+<div id="header" style="margin-left:350px">
+</div>
+</div>
+<div class="col-md-6 col-md-offset-4" id="slider1" >
+<input ng-model="value" ng-change="sliderChange()" type="text" id="mySlider1" slider options="options" />
+</div>
+<div id="legend" style="margin-left:300px">
+</div>
+<Label id="lbl"><input id="thermal_check" type="checkbox" />Sort by Values</Label>
+
+<div id="thermal" style="width:inherit;overflow:auto">
+</div>
